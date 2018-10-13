@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Reading Dataset From Drive
-Data = pd.read_csv(r'C:\Users\usman\Desktop\AI\PythonScripts\DecisionTreeForElectionData\DataSet\ElectionData2.csv',  sep=',')
+Data = pd.read_csv('DataSet\ElectionData2.csv',  sep=',')
 
 
 # Finding No of Rows
